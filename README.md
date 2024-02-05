@@ -1,27 +1,27 @@
 # JBChat
-Este é um projeto que é uma Aplicação ChatBot extremamente simples usando API do Bing com Java, Node.js e Nashorn. Ele foi inspirado em conversas com o próprio bot e desenvolvido por Gabriel, O Nerd (nerdonhub) sob licença MIT.
+This is an extremely simple ChatBot application using the Bing API with Java, Node.js, and Nashorn. It was inspired by conversations with the bot itself and developed by me (Gabriel), under MIT license.
 
-## Sobre o projeto
+## About this...
 
-Este projeto é uma aplicação web que permite ao usuário conversar com um bot que usa a API do Bing para obter informações, gerar conteúdo criativo e responder a perguntas. O bot é capaz de entender e se comunicar fluentemente em vários idiomas, como português, inglês, espanhol, francês, etc. O bot também pode criar arte gráfica usando um modelo de inteligência artificial, com base em um prompt fornecido pelo usuário.
+The project is a web application that allows users to use the Bing API to search for information, create creative content, and chat with bots that answer questions. The bot can understand and communicate fluently in multiple languages, including Portuguese, English, Spanish, and French. The bot can also create graphic art using artificial intelligence models based on instructions provided by the user. This is a project, a very simple ChatBot application that uses the Bing API with Java, Node.js, and Nashorn. Inspired by conversations with the bot itself. This project uses Java, Node.js, and Nashorn to create a web interface, server, and scripts that interact with the Bing API. This project uses Nashorn, Java 8's built-in JavaScript engine, which allows you to run server-side JavaScript scripts and access Java objects.
 
-O projeto usa Java, Node.js e Nashorn para criar uma interface web, um servidor e um script que interage com a API do Bing. O projeto usa Nashorn: um mecanismo JavaScript embutido no Java 8 que permite executar scripts JavaScript no lado do servidor e acessar objetos Java.
+## Okay, okay! But... How to use?
 
-## Como usar
+To use this project, you need to have installed the [Node.js](https://nodejs.org/en) and the [Java 8] or higher on your computer. You also need an access key for the Bing API, learn more [here](https://learn.microsoft.com/pt-br/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython&pivots=programming-language-studio).
 
-Para usar este projeto, você precisa ter instalado o [Node.js](https://nodejs.org/en) e o [Java 8] ou superior em seu computador. Você também precisa de uma chave de acesso para a API do Bing, saiba mais [aqui](https://learn.microsoft.com/pt-br/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython&pivots=programming-language-studio).
+Once you've cloned or downloaded this repository, follow these steps:
 
-Depois de clonar ou baixar este repositório, siga os seguintes passos:
+- Open a terminal and navigate to the project folder.
+- Run the `npm install` command to install the Node.js dependencies.
+- Create a file named `.env` at the root of the project and add the following line: `BING_API_KEY=YOUR_API_KEY`, replacing `YOUR_API_KEY` with your Bing API access key.
+- Run the `npm start` command to start the Node.js server on port 3000.
+- Open another terminal and navigate to the project folder.
+- Run the command `java -cp . ChatBot` to start the Nashorn script that communicates with the Node.js server and the Bing API.
+- Open your browser and go to the `http://localhost:3000` to view the app's web interface.
+- Type a message in the text box and click send to chat with the bot.
 
-- Abra um terminal e navegue até a pasta do projeto.
-- Execute o comando `npm install` para instalar as dependências do Node.js.
-- Crie um arquivo chamado `.env` na raiz do projeto e adicione a seguinte linha: `BING_API_KEY=YOUR_API_KEY`, substituindo `YOUR_API_KEY` pela sua chave de acesso da API do Bing.
-- Execute o comando `npm start` para iniciar o servidor Node.js na porta 3000.
-- Abra outro terminal e navegue até a pasta do projeto.
-- Execute o comando `java -cp . ChatBot` para iniciar o script Nashorn que se comunica com o servidor Node.js e a API do Bing.
-- Abra o seu navegador e acesse o endereço `http://localhost:3000` para ver a interface web da aplicação.
-- Digite uma mensagem na caixa de texto e clique em enviar para conversar com o bot.
+## License
 
-## Licença
+This open source project is licensed under the MIT license. See the [LICENSE](/JBChat/LICENSE) file for more details.
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](/JBChat/LICENSE) para mais detalhes.
+Working properly in October/November 2023
